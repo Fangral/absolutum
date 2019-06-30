@@ -1,0 +1,144 @@
+@import url('http://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600');
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  font-size: 1.1em;
+  margin: 10px 0;
+
+}
+.description {
+  margin: 1em auto 2.25em;
+}
+body {
+
+  margin: 0.5em auto;
+  color: #333;
+}
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 2.5em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul .shutter-panel-collapse {
+  padding-left: 1em;
+  overflow: hidden;
+  display: none;
+}
+ul .shutter-panel-collapse.show {
+  /*display: block;*/
+}
+ul li {
+  margin: .5em 0;
+}
+ul li a.panel-heading {
+
+  display: block;
+  background: #0f93ff;
+  color: #fefefe;
+  padding: .75em;
+
+  border-radius: 0.27em;
+  transition: background .3s ease;
+
+}
+
+.menu {
+
+  display: block;
+  background: white;
+  border: 3px solid  #0f93ff;
+  border-radius: 0.27em;
+  padding: .75em;
+  font-size: 22px;
+  transition: background .3s ease;
+  color: blue;
+  
+
+
+}
+
+
+ul li a.panel-heading img {
+  width: 80px;
+  height: 80px;
+}
+
+ul li a.panel-heading:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+.lb{
+width: 90% ;float: left; 
+}
+.rb{
+width: 10%;   
+margin-left: 90%;
+background-color: #00b300;
+border-radius: 5px;
+text-align: center;
+font-size: 18px;
+   box-sizing: border-box;
+    padding: 16px;
+
+}
+
+.rb-2{
+width: 8%;   
+margin-left: 90%;
+background-color: red;
+border-radius: 5px;
+text-align: center;
+font-size: 14px;
+   box-sizing: border-box;
+    padding: 12px;
+color: white;
+
+}
